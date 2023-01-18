@@ -1,38 +1,235 @@
-.App {
-  text-align: center;
+.links {
+  justify-content: end;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul li {
+  margin: 20px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link {
+  color: black !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a:active {
+  color: green;
+}
+
+.Logo-type {
+  width: 300px;
+  height: 70px;
+}
+
+.bg-img {
+  min-height: 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* nav bar */
+
+.header-div {
+  position: relative;
+  top: 6rem;
+  margin-left: 5rem;
+}
+
+.p-2 {
+  font-size: 5rem;
+  width: 30%;
+}
+
+a .nav-link {
+  color: white !important;
+}
+
+
+main {
+  padding: 7% 10%;
+}
+
+.check img {
+  width: 100px;
+}
+
+.check div {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.check div h3 {
+  padding: 1em 0;
+}
+
+.header-div {
+  font-weight: bold;
+}
+
+.gallery {
+  color: gold !important;
+}
+
+.top {
+  text-shadow: 2px 2px black;
+}
+
+.zalisko {
+  color: white !important;
+}
+
+.x a {
+  color: white !important;
+  text-shadow: 2px 2px black;
+}
+
+.y {
+  background-color: gold;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.userLogin {
+  background-color: #E8CB64;
+  padding-left: 5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  width: 50%;
+}
+
+.plogin {
+  font-weight: bold;
+  width: 70%;
+}
+
+.inputs {
+  width: 20rem;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.buttonLogin {
+  border-radius: 15px;
+  color: black;
+  padding: 1rem 20px;
+  background-color: gold;
+  border: none;
+  font-weight: bold;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+footer {
+  padding: 7% 0%;
+  text-align: center;
+  display: flex;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+footer img {
+  width: 100px;
+  padding-right: 50px;
+}
+
+.log-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
   color: white;
+  background-color: #02121F;
+  height: 500px;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  margin: 10% 4% !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.z img {
+  margin: 1rem 0;
+}
+
+.contact {
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.contact p {
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+.contact::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 300px;
+  background-color: black;
+  right: 0rem;
+  top: 0;
+}
+
+.about {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.about h1 {
+  padding-bottom: 2rem;
+}
+
+.about p {
+  width: 52%;
+  font-weight: bold;
+}
+
+.about div {
+  margin-top: 3rem;
+  display: flex;
+}
+
+form {
+  font-size: 1.5rem;
+}
+
+
+
+#carouselExample {
+background-color: #010A15;
+}
+
+#carouselExample img {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100%;
+}
+
+.carousel-item {
+  height: 100vh;
+  overflow: hidden;
+  background-position: center;
+
 }
