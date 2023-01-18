@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/UI-Challenge/static/css/main.0bafe9f2.css",
+    "main.js": "/UI-Challenge/static/js/main.7db78fdb.js",
+    "static/js/787.f28003e3.chunk.js": "/UI-Challenge/static/js/787.f28003e3.chunk.js",
+    "static/media/Zalisko.svg": "/UI-Challenge/static/media/Zalisko.2ed624e08ea02882914ad4e2908af297.svg",
+    "index.html": "/UI-Challenge/index.html",
+    "main.0bafe9f2.css.map": "/UI-Challenge/static/css/main.0bafe9f2.css.map",
+    "main.7db78fdb.js.map": "/UI-Challenge/static/js/main.7db78fdb.js.map",
+    "787.f28003e3.chunk.js.map": "/UI-Challenge/static/js/787.f28003e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bafe9f2.css",
+    "static/js/main.7db78fdb.js"
+  ]
+}
