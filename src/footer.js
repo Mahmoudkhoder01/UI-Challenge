@@ -13,7 +13,7 @@ const Footer = () => {
                     <form>
                         <p>
                             <label style={{ padding: "10px", fontWeight: "bold" }}>Email</label>
-                            <input style={{ marginLeft: '2rem' }} className="inputs" type='email' placeholder="email@domain.com" />
+                            <input style={{ marginLeft: '2rem' }} className="inputs mail" type='email' placeholder="email@domain.com" />
                         </p>
                         <p>
                             <label style={{ fontWeight: "bold" }}>Password</label>

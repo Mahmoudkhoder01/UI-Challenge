@@ -130,6 +130,7 @@ footer {
   padding: 7% 0%;
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
 }
 
 footer div {
@@ -137,6 +138,8 @@ footer div {
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
+
 }
 
 footer img {
@@ -151,6 +154,8 @@ footer img {
 
 .Login {
   display: flex;
+  flex-wrap: wrap;
+
   justify-content: center;
   align-items: center;
   width: 50%;
@@ -218,7 +223,7 @@ form {
 
 
 #carouselExample {
-background-color: #010A15;
+  background-color: #010A15;
 }
 
 #carouselExample img {
@@ -232,4 +237,76 @@ background-color: #010A15;
   overflow: hidden;
   background-position: center;
 
+}
+
+
+@media (max-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact::after {
+    display: none;
+  }
+
+  .contact::before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 300px;
+    background-color: black;
+    bottom: 0rem;
+    left: 3rem;
+  }
+  .about p{
+    width: 87%;
+  }
+  .contact {
+    width: 100%;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .z {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .log-section {
+    flex-direction: column;
+  }
+
+  .Login {
+    width: 100%;
+    height: 400px;
+  }
+
+  .Logo-type {
+    width: 100px;
+  }
+
+  .userLogin {
+    width: 100%;
+    padding-left: 0;
+    height: 400px;
+  }
+
+  .header-div {
+    margin-left: 3rem;
+  }
+
+  .carousel-item{
+    height: 100%;
+  }
+
+  .card{
+    margin-left: 3rem !important;
+  }
+
+  .mail{
+    margin-left: 0.2rem;
+  }
 }

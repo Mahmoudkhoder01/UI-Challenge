@@ -10,10 +10,10 @@ const Card = () => {
     return (
         <Fragment>
             <div className="container text-center z" data-aos="fade-right"
-                data-aos-offset="300"
+                data-aos-offset="700"
                 data-aos-easing="ease-in-sine">
                 <div className="row">
-                    <div className="card col" style={{ width: "18rem" }}>
+                    <div className="card col-4" style={{ width: "18rem"}}>
                         <img src={
                             process.env.PUBLIC_URL +
                             "/card1.jpeg"
@@ -24,7 +24,7 @@ const Card = () => {
                             <a href="#" className="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
-                    <div className="card col" style={{ width: "18rem" }}>
+                    <div className="card col-4" style={{ width: "18rem"}}>
                         <img src={
                             process.env.PUBLIC_URL +
                             "/card2.jpeg"
@@ -35,7 +35,7 @@ const Card = () => {
                             <a href="#" className="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
-                    <div className="card col" style={{ width: "18rem" }}>
+                    <div className="card col-4" style={{ width: "18rem"}}>
                         <img src={
                             process.env.PUBLIC_URL +
                             "/card3.jpeg"
