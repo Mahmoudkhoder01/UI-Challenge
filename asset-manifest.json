@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/UI-Challenge/static/css/main.cbed1ef9.css",
+    "main.css": "/UI-Challenge/static/css/main.070d5176.css",
     "main.js": "/UI-Challenge/static/js/main.cb4b1b0e.js",
     "static/js/787.f28003e3.chunk.js": "/UI-Challenge/static/js/787.f28003e3.chunk.js",
     "static/media/Zalisko.svg": "/UI-Challenge/static/media/Zalisko.2ed624e08ea02882914ad4e2908af297.svg",
     "index.html": "/UI-Challenge/index.html",
-    "main.cbed1ef9.css.map": "/UI-Challenge/static/css/main.cbed1ef9.css.map",
+    "main.070d5176.css.map": "/UI-Challenge/static/css/main.070d5176.css.map",
     "main.cb4b1b0e.js.map": "/UI-Challenge/static/js/main.cb4b1b0e.js.map",
     "787.f28003e3.chunk.js.map": "/UI-Challenge/static/js/787.f28003e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbed1ef9.css",
+    "static/css/main.070d5176.css",
     "static/js/main.cb4b1b0e.js"
   ]
 }
