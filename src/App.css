@@ -77,6 +77,7 @@ main {
 }
 
 .zalisko {
+  text-shadow: 2px 2px black;
   color: white !important;
 }
 
