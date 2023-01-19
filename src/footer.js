@@ -5,7 +5,7 @@ const Footer = () => {
 
     return (
         <Fragment>
-            <div className="log-section">
+            <div className="log-section" id="login">
                 <div className="Login">
                     <h1>Login</h1>
                 </div>
@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
             </div>
             <footer style={{ backgroundColor: "white" }} >
-                <div className="contact">
+                <div className="contact" id="contact">
                     <p>
                         <img src={
                             process.env.PUBLIC_URL +

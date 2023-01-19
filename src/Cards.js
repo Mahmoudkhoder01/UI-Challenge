@@ -11,7 +11,8 @@ const Card = () => {
         <Fragment>
             <div className="container text-center z" data-aos="fade-right"
                 data-aos-offset="700"
-                data-aos-easing="ease-in-sine">
+                data-aos-easing="ease-in-sine"
+                id="cards">
                 <div className="row">
                     <div className="card col-4" style={{ width: "18rem"}}>
                         <img src={
