@@ -70,6 +70,7 @@ main {
 
 .gallery {
   color: gold !important;
+  text-shadow: 2px 2px black;
 }
 
 .top {
