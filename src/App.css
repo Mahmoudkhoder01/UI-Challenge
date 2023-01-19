@@ -116,7 +116,8 @@ main {
 
 .buttonLogin {
   border-radius: 15px;
-  color: black;
+  color: white;
+  text-shadow: 2px 2px black;
   padding: 1rem 20px;
   background-color: gold;
   border: none;
@@ -260,9 +261,11 @@ form {
     bottom: 0rem;
     left: 3rem;
   }
-  .about p{
+
+  .about p {
     width: 87%;
   }
+
   .contact {
     width: 100%;
   }
@@ -299,15 +302,15 @@ form {
     margin-left: 3rem;
   }
 
-  .carousel-item{
+  .carousel-item {
     height: 100%;
   }
 
-  .card{
+  .card {
     margin-left: 3rem !important;
   }
 
-  .mail{
+  .mail {
     margin-left: 0.2rem;
   }
 }
